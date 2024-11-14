@@ -10,7 +10,7 @@ async def main():
                             app_version='10.10.10'
                             )
 
-    await client.start(password='200700Art')
+    await client.start()
 
     @client.on(NewMessage())
     async def parse(event: Message):
